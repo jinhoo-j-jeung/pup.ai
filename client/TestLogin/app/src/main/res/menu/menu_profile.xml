@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item android:id="@+id/action_profile_fav"
+    android:orderInCategory="3"
+    android:title="@string/menu_favorite"
+    app:showAsAction="never"/>
+
+  <item android:id="@+id/action_profile_friend"
+    android:orderInCategory="4"
+    android:title="@string/menu_friends"
+    app:showAsAction="never"/>
+
+  <item android:id="@+id/action_profile_logout"
+    android:title="@string/logout"
+    android:orderInCategory="101"
+    app:showAsAction="never"/>
+</menu>

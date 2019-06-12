@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingBottom="16sp"
+  android:paddingTop="16sp"
+  tools:context=".ResultActivity" >
+
+  <TextView
+    android:text="@string/tv_result_title"
+    android:textColor="@color/colorBlazeOrange"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:background="@color/colorAlmostWhite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:visibility="visible"/>
+
+  <TextView
+    android:id="@+id/tv_result_exp"
+    android:text = "@string/tv_result_exp"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="@color/colorSecondaryAlpha80"
+    android:visibility="visible">
+  </TextView>
+
+  <ListView
+    android:id="@+id/lv_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20sp">
+  </ListView>
+
+  <ImageView
+    android:id="@+id/iv_result_notdog"
+    android:src="@drawable/cat"
+    android:visibility="invisible"
+    android:layout_width="wrap_content"
+    android:layout_height="180sp"
+    android:layout_gravity="center"
+    android:contentDescription="@string/cd_result_image"/>
+
+  <TextView
+    android:id="@+id/tv_result_notdog"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="@color/colorThird"/>
+</LinearLayout>
+

@@ -1,0 +1,88 @@
+<resources>
+  <!-- General -->
+  <string name="app_name">pup.ai</string>
+  <string name="email">email</string>
+  <string name="password">password</string>
+  <string name="name">name</string>
+  <string name="location">location</string>
+  <string name="api_token">token</string>
+  <string name="submit">Submit</string>
+  <string name="logout">Log out</string>
+
+  <!-- SplashActivity -->
+  <string name="cd_splash_image">Image for SplashActivity</string>
+
+  <!-- LoginActivity -->
+  <string name="login">Log in</string>
+  <string name="cd_login_image">Image for LoginActivity</string>
+  <string name="tv_login_register">No account yet? Create one</string>
+  <string name="tv_login_without">Use without signing in!</string>
+  <string name="toast_login_fail">Login failed. Try Again!</string>
+
+  <!-- ProfileActivity -->
+  <string name="bt_profile_edit">Edit</string>
+  <string name="cd_profile_image">Image for User Profile</string>
+  <string name="cd_profile_icon1">Icon for User Email</string>
+  <string name="cd_profile_icon2">Icon for User Location</string>
+
+  <!-- ProfielEditActivity -->
+  <string name="cd_edit_image">Default Image for User Profile</string>
+  <string name="toast_edit_success">Your profile is successfully updated!</string>
+  <string name="toast_edit_fail">Failed to update your profile. Try Again!</string>
+
+  <!-- RegisterActivty -->
+  <string name="cd_register_image">Image for RegisterActivity</string>
+  <string name="toast_register_fail">Register failed. Try Again!</string>
+
+  <!-- MainActivity-->
+  <string name="main_alt">Image preview</string>
+  <string name="picture_bt">Take picture</string>
+  <string name="gallery_bt">Browse</string>
+  <string name="classify_bt">Tell me what breed it is!</string>
+  <string name="toast_main_error">Network Error</string>
+  <string name="toast_main_perm1">Permission granted</string>
+  <string name="toast_main_perm2">Permission denied</string>
+  <string name="toast_main_perm3">Your permission is needed to use this application!</string>
+
+  <!-- FavoriteActivity -->
+  <string name="favact_empty">You don\'t have any favorite breed at the moment!</string>
+  <string name="favact_title">Your Favorite Breeds</string>
+  <string name="favact_exp">(Long click to remove breeds from your favorite)</string>
+
+  <!-- FriendActivity -->
+  <string name="friendact_fheader">Friends:</string>
+  <string name="friendact_pheader">Pending Requests:</string>
+  <string name="friendact_rheader">Friend Requests:</string>
+  <string name="friendact_sheader">Suggested Friends:</string>
+  <string name="friendact_fempty">You don\'t have any friend at the moment</string>
+  <string name="friendact_pempty">No pending requests</string>
+  <string name="friendact_rempty">No friend requests</string>
+  <string name="friendact_sempty">No suggestion at the moment</string>
+
+  <!-- ResultActivity -->
+  <string name="tv_result_title">Results Page</string>
+  <string name="tv_result_exp">Click on each result to see more breed information</string>
+  <string name="cd_result_image">Image which gets displayed when the classification result is not a dog</string>
+  <string name="resultact_notdog">It\'s not a dog!\nMaybe it\'s a cat?!?</string>
+  <string name="resultact_header">\t\t\t\t\t\t\t\t\t\t|\t\t\t\t\t\tBreed\t\t\t\t\t\t|\t\t\tMatch Score</string>
+  <string name="cd_result_icon">Icon inside the table row</string>
+
+  <!-- BreedInfoActivity -->
+  <string name="cd_info_icons">Icons to display levels of different attributes</string>
+  <string name="cd_info_image">Image of the searched breed</string>
+  <string name="cd_info_favbutton">Icon image for the add favorite button</string>
+  <string name="toast_info_favsuccess">Added to your favourite breeds!</string>
+  <string name="toast_info_favfailed">Please Log in to save your favorite breeds!</string>
+  <string name="tv_info_nodata">We don’t have additional breed information for %1$s at this time</string>
+  <string name="tv_info_category1">height:</string>
+  <string name="tv_info_category2">weight:</string>
+  <string name="tv_info_category3">life span:</string>
+  <string name="tv_info_weight_unit">%1$s pounds</string>
+
+  <!-- Menu -->
+  <string name="menu_search">Search</string>
+  <string name="menu_profile">Profile</string>
+  <string name="menu_friends">Friends</string>
+  <string name="menu_favorite">Favorite</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/tv_fav_title"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="5sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="@string/favact_title"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="@color/colorAlmostWhite"
+    android:background="@color/colorBlazeOrange"/>
+
+  <TextView
+    android:id="@+id/tv_fav_exp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:gravity="center_horizontal"
+    android:text="@string/favact_exp"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:textColor="@color/colorBlazeOrange"/>
+
+  <ListView
+    android:id="@+id/lv_favs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  </ListView>
+
+  <TextView
+    android:id="@+id/tv_fav_empty"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="40sp"
+    android:textColor="@color/colorBlazeOrange"
+    android:visibility="invisible"/>
+
+</LinearLayout>

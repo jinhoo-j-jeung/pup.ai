@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/bokeh_gray.png" />
+        <ignore path="src/main/res/drawable/breed1.png" />
+        <ignore path="src/main/res/drawable/breed2.png" />
+        <ignore path="src/main/res/drawable/breed3.png" />
+        <ignore path="src/main/res/drawable/breed4.png" />
+        <ignore path="src/main/res/drawable/breed5.png" />
+        <ignore path="src/main/res/drawable/cat.png" />
+        <ignore path="src/main/res/drawable/default_image.png" />
+        <ignore path="src/main/res/drawable/fav_icon.png" />
+        <ignore path="src/main/res/drawable/ic_location.png" />
+        <ignore path="src/main/res/drawable/pup_icon1.png" />
+        <ignore path="src/main/res/drawable/pup_icon3.png" />
+        <ignore path="src/main/res/drawable/pup_icon4.png" />
+        <ignore path="src/main/res/drawable/register_image2.jpg" />
+        <ignore path="src/main/res/drawable/user.png" />
+    </issue>
+</lint>

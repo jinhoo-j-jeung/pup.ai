@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <ImageView
+    android:id="@+id/iv_editpic"
+    android:src="@drawable/user"
+    android:layout_width="200sp"
+    android:layout_height="200sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20sp"
+    android:contentDescription="@string/cd_edit_image"/>
+
+  <EditText
+    android:id="@+id/et_edit_name"
+    android:inputType="text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:backgroundTint="@color/colorSecondary"
+    android:textSize="18sp"
+    android:hint="@string/name"
+    tools:targetApi="lollipop"/>
+
+  <EditText
+    android:id="@+id/et_edit_location"
+    android:inputType="text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:backgroundTint="@color/colorSecondary"
+    android:textSize="18sp"
+    android:hint="@string/location"
+    tools:targetApi="lollipop"/>
+
+  <Button
+    android:id="@+id/bt_edit_camera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="takePicture"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/picture_bt" />
+
+  <Button
+    android:id="@+id/bt_edit_gallery"
+    android:onClick="browseGallery"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/gallery_bt" />
+
+  <Button
+    android:id="@+id/bt_edit_submit"
+    android:onClick="EditSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/submit"
+    android:textSize = "18sp"
+    android:textColor="@color/colorAlmostWhite"
+    android:backgroundTint="@color/colorSecondary"
+    tools:targetApi="lollipop"/>
+
+</LinearLayout>
